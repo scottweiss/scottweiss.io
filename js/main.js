@@ -25,7 +25,7 @@ if ($(this).data("link").length !== false){
 
 $("h1, .home").click(function() {
 
-     $("div > div").hide();
+     $("div > div:not(.contactBlock)").hide();
      $("#home").show();
      $("h2").show();
      window.location.replace("#", "");

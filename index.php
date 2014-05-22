@@ -3,10 +3,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Scott Weiss</title>
-    <meta name="description" content="">
+    <meta name="description" content="Scott Weiss's online portfolio">
     <meta name="keywords" content="Drexel, University, Scott Weiss, Scott, Weiss">
     <meta name="author" content="Scott Weiss">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- for Facebook -->          
+<meta property="og:title" content="Scott Weiss's Portfolio" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.scottweiss.io/img/favicon.png" />
+<meta property="og:url" content="http://www.scottweiss.io" />
+<meta property="og:description" content="This is the website of Scott Weiss! It host's all his shitty projects and contact information." />
+
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -88,20 +96,20 @@
 
         </form> 
 
-        <div class="contactBlock"><a href="https://www.linkedin.com/pub/scott-weiss/1a/531/8a7"><i class="fa fa-linkedin"></i></a></div>
+        <div class="contactBlock"><a href="https://www.linkedin.com/pub/scott-weiss/1a/531/8a7" target="_blank"><i class="fa fa-linkedin"></i></a></div>
 
-        <div class="contactBlock"><a href="https://github.com/scottweiss"><i class="fa fa-github"></i></a></div>
+        <div class="contactBlock"><a href="https://github.com/scottweiss" target="_blank"><i class="fa fa-github"></i></a></div>
 
-        <div class="contactBlock"><a href="https://bitbucket.org/scott_weiss"><i class="fa fa-bitbucket"></i></a></div>
+        <div class="contactBlock"><a href="https://bitbucket.org/scott_weiss" target="_blank" ><i class="fa fa-bitbucket"></i></a></div>
 
 
-          <div class="contactBlock"><a href="http://steamcommunity.com/id/ScottWeiss" class="shame"><i class="fa fa-steam"></i></a></div>
-        <div class="contactBlock"><a href="https://twitter.com/scottweiss"><i class="fa fa-twitter"></i></a></div>
-        <div class="contactBlock"><a href="https://www.facebook.com/scott.a.weiss"><i class="fa fa-facebook"></i></a></div>
+          <div class="contactBlock"><a href="http://steamcommunity.com/id/ScottWeiss" class="shame" target="_blank" ><i class="fa fa-steam"></i></a></div>
+        <div class="contactBlock"><a href="https://twitter.com/scottweiss" target="_blank" ><i class="fa fa-twitter"></i></a></div>
+        <div class="contactBlock"><a href="https://www.facebook.com/scott.a.weiss" target="_blank" ><i class="fa fa-facebook"></i></a></div>
 
-        <div class="contactBlock"><a href="https://vine.co/u/953414090477498368"><i class="fa fa-vine"></i></a></div>
-        <div class="contactBlock"><a href="//www.google.com/+ScottWeissA"><i class="fa fa-google-plus"></i></a></div>
-        <div class="contactBlock"><a href="https://soundcloud.com/scott-weiss" class="shame"><i class="fa fa-soundcloud"></i></a></div>
+        <div class="contactBlock"><a href="https://vine.co/u/953414090477498368" target="_blank" ><i class="fa fa-vine"></i></a></div>
+        <div class="contactBlock"><a href="//www.google.com/+ScottWeissA" target="_blank" ><i class="fa fa-google-plus"></i></a></div>
+        <div class="contactBlock"><a href="https://soundcloud.com/scott-weiss" class="shame" target="_blank" ><i class="fa fa-soundcloud"></i></a></div>
 
 
 
@@ -111,9 +119,9 @@
     <div id='projects' hidden>
          <h2>Projects</h2>
          
-         <h2><a href="http://tbd.scottaweiss.com">mysylla.bi</a></h2>
+         <h2><a href="http://tbd.scottaweiss.com" target="_blank">mysylla.bi</a></h2>
          <h3>Senior Project, still a work in progress!</h3>
-         <h4><a href="https://github.com/scottweiss/TBDGOOD"><i class="fa fa-github"></i> View on GitHub</a></h4>
+         <h4><a href="https://github.com/scottweiss/TBDGOOD" target="_blank"><i class="fa fa-github"></i> View on GitHub</a></h4>
          <iframe src="http://tbd.scottaweiss.com"></iframe>
          <img src="img/mysyllabiPoster.png">
          <p>MySyllabi is an application that will allow for students to share their class schedules and assignments with their classmates 
@@ -124,15 +132,22 @@
          if a discrepancy is found by others in the schedule</p>
          
          
-         <h2><a href="http://www.isdrexelclosed.com/yes.php">isdrexelclosed.com</a></h2>
+         <h2><a href="http://www.isdrexelclosed.com/yes.php" target="_blank" >isdrexelclosed.com</a></h2>
          <h3>small project that got way too much attention</h3>
          <iframe src="http://isdrexelclosed.com/yes.php?shhh"></iframe>
          <p>Back in Feburary of 2014 an announcement was sent out to all of drexel saying that Drexel was closed the following day due to snow. I felt I had to do something so I made this website.</p>
          <p>
          I posted it on my facebook wall and within 45 minutes it was on twitter, another hour until it reached reddit. I woke up the next morning to google analytics saying it got ~10K unique views in 22 hours. 
          Unfortunatly, this was one of my biggest accomplishments and contributions to society. I'm sorry and you're welcome.</p>
+
+         <h2><a href="http://www.scottweiss.io" target="_blank" >scottweiss.io</a></h2>
+         <h3>The site you're looking at right now</h3>
+         <h4><a href="https://github.com/scottweiss/scottweiss.io" target="_blank" ><i class="fa fa-github"></i> View on GitHub</a></h4>
+         <iframe src="http://scottweiss.io"></iframe>
+         <p>My first website thats not completly horrible!</p>
+        
          
-         <h2><a href="http://www.drexel.sexy">drexel.sexy</a></h2>
+         <h2><a href="http://www.drexel.sexy" target="_blank" >drexel.sexy</a></h2>
          <h3>Guaranteed you've never felt this way about a univeristy president before!</h3>
          <iframe src="http://drexel.sexy?shhh"></iframe>
          <p>Push it real good!</p>
@@ -143,7 +158,7 @@
          
          <h2>Unified Remote</h2>
          <h3>Custom XML Remote</h3>
-         <h4><a href="https://gist.github.com/scottweiss/8165980"><i class="fa fa-github"></i> View on GitHub</a></h4>
+         <h4><a href="https://gist.github.com/scottweiss/8165980" target="_blank" ><i class="fa fa-github"></i> View on GitHub</a></h4>
          <img src="img/unifiedRemote.png">
          
          <p>The stock remotes didn't do what I wanted so I wrote my own.</p>
@@ -153,11 +168,11 @@
          
          <h2><a href="#">Org Chart Generator</a></h2>
          <h3>Recursive PHP function that outputs nested elements.</h3>
-         <h4><a href="https://gist.github.com/scottweiss/7741899"><i class="fa fa-github"></i> View on GitHub</a></h4>
+         <h4><a href="https://gist.github.com/scottweiss/7741899" target="_blank" ><i class="fa fa-github"></i> View on GitHub</a></h4>
          <p>Back in 2010 I was taked in representing my fraternal family tree online. I was unable to find any good solutions online so I created my own.</p>
          <p>The function I wrote works well for both Fraternity family trees and busness Org Charts but only works if each employee reports to one and only one manager/higherup.</p>
          
-         <h2 id="cs161"><a href="http://www.pages.drexel.edu/~saw72/">CS 161 Homepage Assignment</a></h2>
+         <h2 id="cs161"><a href="http://www.pages.drexel.edu/~saw72/" target="_blank" >CS 161 Homepage Assignment</a></h2>
          <h3>Web Development assignment for Drexel's "Intro to Computing"</h3>
          <iframe src="http://www.pages.drexel.edu/~saw72/"></iframe>
          <p>This was a fun assignemtn I did a few weeks ago for school!</p>
