@@ -31,6 +31,11 @@ $("h1, .home").click(function() {
      window.location.replace("#", "");
 
 });
+
+$("#submit").click(function(){
+     $("input, textarea").hide();
+     $("form").append("<p>Form doesn't work but it will be soon!</p>");
+})
 		
 (function($) {
 

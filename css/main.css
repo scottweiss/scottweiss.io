@@ -23,7 +23,7 @@ body{
   max-width: 600px;
 
 }
-div > div:not(#home){
+div > div:not(#home, .contactBlock){
   display: none;
 
 }
@@ -103,4 +103,51 @@ iframe {
     height: 400px;
     background-color: #fff;
     border: solid 3px #FF7500;
+}
+form{
+  width: auto;
+  background-color: #FF7500;
+  padding:20px;
+  margin-bottom: 15px;
+}
+form input, textarea{
+  width: 98%;
+  margin-bottom: 15px;
+  padding:3px;
+  display:inline-block;
+}
+textarea{
+  height: 150px;
+}
+button{
+  width:100%;
+  padding:10px;
+  background-color: #fefefe;
+}
+.contactBlock{
+  height: 190px;
+  width: 190px;
+  background-color: #FF7500;
+  float: right;
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+}
+.contactBlock:hover{
+  background-color: #19FF23;
+
+}
+.contactBlock a, .contactBlock i {
+  color: #fefefe;
+  line-height: 190px;
+  font-size: 80px;
+  text-align: center;
+  margin-left: 30px;
+}
+.shame{
+  margin-left: 15px !important;
+}
+.contactBlock:nth-child(3n){
+  margin-right: 0;
+
 }

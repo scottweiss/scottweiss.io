@@ -80,22 +80,30 @@
     <div id='contact' hidden>
       <h2>Contact Me</h2>
 
+        <form action="" method="">
+          <input type="text" name="name" placeholder="Name">
+          <input type="text" name="email" placeholder="Email Address">
+          <textarea name="message" placeholder="Write me a message!"></textarea>
+          <input type="button" id="submit" value="Send Mail">
 
-      <ul>
+        </form> 
+
+        <div class="contactBlock"><a href="https://www.linkedin.com/pub/scott-weiss/1a/531/8a7"><i class="fa fa-linkedin"></i></a></div>
+
+        <div class="contactBlock"><a href="https://github.com/scottweiss"><i class="fa fa-github"></i></a></div>
+
+        <div class="contactBlock"><a href="https://bitbucket.org/scott_weiss"><i class="fa fa-bitbucket"></i></a></div>
 
 
-        <li><span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:fpbgg.n.jrvff@tznvy.pbz?fhowrpg=Uryyb sebz fpbggjrvff.vb\" gnetrg=\"_oynax\">Rznvy Zr</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});document.body.appendChild(eo);</script>
-<noscript><span style="unicode-bidi:bidi-override;direction:rtl;">moc.liamg@ssiew.a.ttocs</span></noscript></span></li>
-        <li><a href="https://www.linkedin.com/pub/scott-weiss/1a/531/8a7"><i class="fa fa-linkedin"></i> Scott Weiss</a></li>
-        <li><a href="https://github.com/scottweiss"><i class="fa fa-github"></i> scottweiss</a></li>
-        <li><a href="https://bitbucket.org/scott_weiss"><i class="fa fa-bitbucket"></i> scott_weiss</a></li>
-        <li><a href="http://steamcommunity.com/id/ScottWeiss"><i class="fa fa-steam"></i> scottweiss</a></li>
-        <li><a href="https://twitter.com/scottweiss"><i class="fa fa-twitter"></i> @scottweiss</a></li>
-        <li><a href="https://www.facebook.com/scott.a.weiss"><i class="fa fa-facebook"></i> /scott.a.weiss</a></li>
-        <li><a href="//www.google.com/+ScottWeissA"><i class="fa fa-google-plus"></i> scott.a.weiss</a></li>
-        <li><a href="https://vine.co/u/953414090477498368"><i class="fa fa-vine"></i> @scottweiss</a></li>
-        <li><a href="https://soundcloud.com/scott-weiss"><i class="fa fa-soundcloud"></i> scott-weiss</a></li>
-      </ul>
+          <div class="contactBlock"><a href="http://steamcommunity.com/id/ScottWeiss" class="shame"><i class="fa fa-steam"></i></a></div>
+        <div class="contactBlock"><a href="https://twitter.com/scottweiss"><i class="fa fa-twitter"></i></a></div>
+        <div class="contactBlock"><a href="https://www.facebook.com/scott.a.weiss"><i class="fa fa-facebook"></i></a></div>
+
+        <div class="contactBlock"><a href="https://vine.co/u/953414090477498368"><i class="fa fa-vine"></i></a></div>
+        <div class="contactBlock"><a href="//www.google.com/+ScottWeissA"><i class="fa fa-google-plus"></i></a></div>
+        <div class="contactBlock"><a href="https://soundcloud.com/scott-weiss" class="shame"><i class="fa fa-soundcloud"></i></a></div>
+
+
 
       <span class="home"><i class="fa fa-long-arrow-left"></i> Go back</span>
     </div>
@@ -135,7 +143,7 @@
          
          <h2>Unified Remote</h2>
          <h3>Custom XML Remote</h3>
-         <h4><a href="https://github.com/scottweiss/TBDGOOD"><i class="fa fa-github"></i> View on GitHub</a></h4>
+         <h4><a href="https://gist.github.com/scottweiss/8165980"><i class="fa fa-github"></i> View on GitHub</a></h4>
          <img src="img/unifiedRemote.png">
          
          <p>The stock remotes didn't do what I wanted so I wrote my own.</p>
@@ -145,7 +153,7 @@
          
          <h2><a href="#">Org Chart Generator</a></h2>
          <h3>Recursive PHP function that outputs nested elements.</h3>
-         <h4><a href="https://github.com/scottweiss"><i class="fa fa-github"></i> View on GitHub</a></h4>
+         <h4><a href="https://gist.github.com/scottweiss/7741899"><i class="fa fa-github"></i> View on GitHub</a></h4>
          <p>Back in 2010 I was taked in representing my fraternal family tree online. I was unable to find any good solutions online so I created my own.</p>
          <p>The function I wrote works well for both Fraternity family trees and busness Org Charts but only works if each employee reports to one and only one manager/higherup.</p>
          
