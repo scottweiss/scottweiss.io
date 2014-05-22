@@ -1,0 +1,106 @@
+/*
+Dark Blue :334D5C;
+Mid Blue: 45B29D;
+Yellow Gold: EFC94C;
+orange: E27A3F;
+red: DF5A49;
+
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,200,400,700);
+
+body{
+  background-image: url('../img/dark_dotted.png');
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-bottom: 45px;
+
+  max-width: 600px;
+
+}
+div > div:not(#home){
+  display: none;
+
+}
+li{
+  color: #fefefe;
+  list-style: none;
+}
+#resume li{
+  font-size: 12px;
+  list-style: disc;
+
+}
+.home, a{
+  color: #FF7500;
+  text-decoration: none;
+  cursor: pointer;
+}
+.home:hover, a:hover{
+  color: #19FF23;
+}
+
+::selection {
+  background: #2F09B2;
+  }
+i{
+  margin-right: 1em;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #FF7500;
+  font-size: 52px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+h1 span{
+  font-weight: 700;
+}
+h2{
+    color: #FF7500;
+    font-weight: 100;
+    margin-top: 0;
+    font-size: 24px;
+}
+h2 span{
+  font-size: .5em;
+  line-height: .5em;
+}
+h2:not(:first-child){
+  margin-bottom: 2px;
+}
+h3{
+  color: #FF7500;
+  font-size: 14px;
+  margin-top: 0;
+
+}
+p{
+  color: #fefefe;
+  line-height: 1.4em;
+}
+#projects p + h2{
+    margin-top:50px;
+} 
+#projects h4{
+    margin: 0;
+    text-align: right;
+    position: relative;
+    top: -40px;
+}
+#projects img{
+    width: 100%;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    border: solid 3px #FF7500;
+}
