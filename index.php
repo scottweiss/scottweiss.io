@@ -35,9 +35,9 @@
     </div>
 
     <div id='resume' hidden>
-         <h2><a href="ScottWeissResume.pdf"><i class="fa fa-file-pdf-o"></i>Download my Resume</a></h2>
+         <h2><a href="ScottWeissResume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>Download my Resume</a></h2>
          
-        <h2><a href="http://www.temboinc.com/">Tembo Inc.</a> <span>2014 - Present</span></h2>
+        <h2><a href="http://www.temboinc.com/" target="_blank">Tembo Inc.</a> <span>2014 - Present</span></h2>
         <h3>Developer</h3>
         <ul>
           <li>Migrated an internal tool from slim to Phalcon framework.</li>
@@ -50,7 +50,7 @@
         <h2><a href="http://www.ibx.com/">Independence Blue Cross</a> <span>2012 - 2013</span></h2>
         <h3>Enterprise Architecture – Developer</h3>
         <ul>
-          <li>Created an application for renaming files for use with the <a href="www.ibx.com/app">IBX Mobile application.</a></li>
+          <li>Created an application for renaming files for use with the <a href="http://www.ibx.com/app" target="_blank">IBX Mobile application.</a></li>
           <li>Tested and reported defects for the mobile application on both android and iOS platforms.</li>
           <li>Designed mockups and wireframes for future releases of IBX Mobile for mobile and tablet platforms.</li>
         </ul>
@@ -122,7 +122,7 @@
          <h2><a href="http://tbd.scottaweiss.com" target="_blank">mysylla.bi</a></h2>
          <h3>Senior Project, still a work in progress!</h3>
          <h4><a href="https://github.com/scottweiss/TBDGOOD" target="_blank"><i class="fa fa-github"></i> View on GitHub</a></h4>
-         <iframe src="http://tbd.scottaweiss.com"></iframe>
+         <iframe src="http://tbd.scottaweiss.com" class="preview"></iframe>
          <img src="img/mysyllabiPoster.png">
          <p>MySyllabi is an application that will allow for students to share their class schedules and assignments with their classmates 
          through crowd-sourcing for an interactive and collaborative way to stay on schedule. The application will allow students to input 
@@ -134,7 +134,7 @@
          
          <h2><a href="http://www.isdrexelclosed.com/yes.php" target="_blank" >isdrexelclosed.com</a></h2>
          <h3>small project that got way too much attention</h3>
-         <iframe src="http://isdrexelclosed.com/yes.php?shhh"></iframe>
+         <iframe src="http://isdrexelclosed.com/yes.php?shhh" class="preview"></iframe>
          <p>Back in Feburary of 2014 an announcement was sent out to all of drexel saying that Drexel was closed the following day due to snow. I felt I had to do something so I made this website.</p>
          <p>
          I posted it on my facebook wall and within 45 minutes it was on twitter, another hour until it reached reddit. I woke up the next morning to google analytics saying it got ~10K unique views in 22 hours. 
@@ -143,13 +143,13 @@
          <h2><a href="http://www.scottweiss.io" target="_blank" >scottweiss.io</a></h2>
          <h3>The site you're looking at right now</h3>
          <h4><a href="https://github.com/scottweiss/scottweiss.io" target="_blank" ><i class="fa fa-github"></i> View on GitHub</a></h4>
-         <iframe src="http://scottweiss.io"></iframe>
+         <iframe src="http://scottweiss.io" class="preview"></iframe>
          <p>My first website thats not completly horrible!</p>
         
          
          <h2><a href="http://www.drexel.sexy" target="_blank" >drexel.sexy</a></h2>
          <h3>Guaranteed you've never felt this way about a univeristy president before!</h3>
-         <iframe src="http://drexel.sexy?shhh"></iframe>
+         <iframe src="http://drexel.sexy?shhh" class="preview"></iframe>
          <p>Push it real good!</p>
          
          <h2>Arduino</h2>
@@ -169,12 +169,12 @@
          <h2><a href="#">Org Chart Generator</a></h2>
          <h3>Recursive PHP function that outputs nested elements.</h3>
          <h4><a href="https://gist.github.com/scottweiss/7741899" target="_blank" ><i class="fa fa-github"></i> View on GitHub</a></h4>
-         <p>Back in 2010 I was taked in representing my fraternal family tree online. I was unable to find any good solutions online so I created my own.</p>
+         <p>Back in 2010 I was tasked with representing my fraternal family tree online. I was unable to find any good solutions online so I created my own.</p>
          <p>The function I wrote works well for both Fraternity family trees and busness Org Charts but only works if each employee reports to one and only one manager/higherup.</p>
          
          <h2 id="cs161"><a href="http://www.pages.drexel.edu/~saw72/" target="_blank" >CS 161 Homepage Assignment</a></h2>
          <h3>Web Development assignment for Drexel's "Intro to Computing"</h3>
-         <iframe src="http://www.pages.drexel.edu/~saw72/"></iframe>
+         <iframe src="http://www.pages.drexel.edu/~saw72/" class="preview"></iframe>
          <p>This was a fun assignemtn I did a few weeks ago for school!</p>
          
       <span class="home"><i class="fa fa-long-arrow-left"></i> Go back</span>
@@ -183,7 +183,8 @@
 
     
   </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
   </body>
 </html>
