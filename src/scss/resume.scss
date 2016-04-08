@@ -1,0 +1,50 @@
+$lineHeight: 1.25rem;
+.resume{
+	header{
+		h1{
+			font-size: 4rem;
+		}
+	}
+	section + section{
+		margin-top: 30px;
+	}
+	h1{
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+
+		.employeer-name{
+			font-weight: normal;
+			text-transform: initial;
+			
+			&::before{
+				content: '/';
+				margin-left: 10px;
+				margin-right: 7px;
+				font-size: $lineHeight;
+			}
+		}
+	}
+	.date-range{
+		margin-bottom: 5px;
+		font-style: italic;
+	}
+	.date-range,
+	.location{
+		font-size: calc(100% - 1px);
+	}
+	ul{
+		list-style-type: disc;
+		padding-left: 1rem;
+
+		li{
+			line-height: $lineHeight;
+			+ li{
+				margin-top: 5px;
+			}
+		}
+	}
+	p{
+		line-height: $lineHeight;
+	}
+}

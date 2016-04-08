@@ -1,0 +1,15 @@
+.card{
+    background-color: $accent-background;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+@media (min-width: $tablet-breakpoint) {
+    .card{
+        padding: 20px 5px;
+    }
+}
+@media (min-width: $desktop-breakpoint) {
+    
+}

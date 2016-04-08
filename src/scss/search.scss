@@ -1,0 +1,44 @@
+$search-placeholder-text: $primary-text;
+
+.search-container{
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 3px;
+    width: calc(100% - 101px);
+    display: inline-block;
+    margin-right: 10px;
+    cursor: text;
+
+    i{
+        cursor: pointer;
+        display: inline-block;
+    }
+    input{
+        width: calc(100% - 24px);
+        outline: none;
+        border: 0;
+        margin: 0;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    & + button{
+        display: inline-block;
+        height: 42px;
+    }
+
+
+
+    input::-webkit-input-placeholder {
+       color: $search-placeholder-text;
+    }
+    input:-moz-placeholder { /* Firefox 18- */
+        color: $search-placeholder-text;
+    }
+    input::-moz-placeholder {  /* Firefox 19+ */
+       color: $search-placeholder-text;
+    }
+    input:-ms-input-placeholder {  
+       color: $search-placeholder-text;
+    }
+
+}
