@@ -1,0 +1,30 @@
+.tv{
+
+    background: gray;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    &-screen{
+        width: 80vw;
+        height: 60vh;
+        position: relative;
+        // background-color: black;
+        overflow: hidden;
+        margin: 20vh 10vw;
+        border-radius: 50% / 10%;
+
+        &:before{
+            content: '';
+            position: absolute;
+            top: 5vh;
+            bottom: 5vh;
+            right: -3.5vw;
+            left: -3.5vw;
+            background: inherit;
+            border-radius: 5% / 50%;
+        }
+    }
+}
